@@ -1,4 +1,4 @@
-# Vite POC
+# Webpack 5 POC
 
 - [x] Code splitting
 - [ ] Fast Hot Module Replacement (state loss on save, maybe fixed with experimental plugin)
