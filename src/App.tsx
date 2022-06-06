@@ -1,7 +1,13 @@
-import logo from './logo.svg';
-import './App.scss';
+import logo from "./logo.svg";
+import "./App.scss";
+import { Sample } from "./types";
 
 function App() {
+  const user: Sample = {
+    name: "me",
+    age: 21,
+  };
+  console.log(user);
   return (
     <div className="App">
       <header className="App-header">

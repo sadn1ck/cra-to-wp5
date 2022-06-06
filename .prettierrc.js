@@ -1,8 +1,20 @@
 module.exports = {
-    semi: false,
-    trailingComma: 'es5',
-    singleQuote: true,
-    printWidth: 80,
-    tabWidth: 2,
-    endOfLine: 'auto'
+    "printWidth": 100,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "quoteProps": "consistent",
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "overrides": [
+        {
+            "files": ["*.json", "*.jsonc", "*.yml", "*.html", "*.css", "*.scss", "*.tsx"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
 }
