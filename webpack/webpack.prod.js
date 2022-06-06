@@ -26,7 +26,7 @@ module.exports = {
           test: /[\\/]node_modules[\\/]/,
           name(module) {
             // src: https://medium.com/hackernoon/the-100-correct-way-to-split-your-chunks-with-webpack-f8a9df5b7758
-            console.log(module.context);
+            // console.log(module.context);
             // get the name. E.g. node_modules/packageName/not/this/part.js
             // or node_modules/packageName
             const packageName = module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/)[1];
